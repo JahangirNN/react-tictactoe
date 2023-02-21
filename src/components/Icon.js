@@ -1,5 +1,5 @@
 import React from "react";
-import {FaTimes, FaPen, FaRegCircle} from "react-icons";
+import {FaTimes, FaPen, FaRegCircle, FaAlignCenter} from "react-icons/fa";
 
 const Icon = ({name}) =>(
     <h1>
