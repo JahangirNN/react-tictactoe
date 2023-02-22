@@ -129,7 +129,7 @@ const App = () => {
                 {itemArray.map((item, index) =>(
                   <Card color="warning" onClick={() => changeItem(index)}>
                     <CardBody className="box">
-                      <Icon classname="con" name={item}/>
+                      <Icon name={item}/>
                     </CardBody>
                   </Card> 
                 ))}

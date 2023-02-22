@@ -21,10 +21,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation-name: example;
-  animation-duration: 4s; */
+  transition: background-color 1s ease-out 100ms
 }
+
+.box:hover {
+  background-color: #71f665;
+}
+
+
 .icon {
   font-size: 35px;
   color: #ffffff;
+  transition: font-size 3s ease-in-out 500ms
+}
+
+.box:hover {
+  font-size: 45px;
 }
